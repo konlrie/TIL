@@ -25,6 +25,36 @@ user.email=konlpyrie@gmail.com
 user.name=konlrie
 ```
 
+
+
+## +) gitignore
+
+프로젝트를 진행할 때, ` git`으로 관리하지 않을 파일 혹은 폴더들을 설정할 수 있다.
+
+`*.xlsx`						# 확장자가 xlsx인 파일
+
+`a.txt`						  # a.txt 파일
+
+`.ipynb_checkpoints     # .ipynb_checkpoints 폴더
+
+프로젝트 시작시 어떠한 내용을 담아야할지 모르겠다면, [gitignore](http://gitignore.io/)에서 검색한다.
+
+예) `python`, `r`, `jupyter notebook`
+
+[vim adventure](https://vim-adventures.com/)
+
+gitignore.io
+
+vim I 눌러서 편집모드
+
+esc :wq를 통해서 저장 후 종료
+
+[visal studio code](https://code.visualstudio.com/)
+
+![image-20191209152414058](images/image-20191209152414058.png)
+
+
+
 ## 로컬 저장소에서 활용하기
 
 ### 1. git 저장소 설정
@@ -179,6 +209,8 @@ $ git push origin master
 이후에 변경된 사항(commit)이 발생하였을 때, `git push origin master` 명령어를 통해서 매번 업로드를 해줄 수 있다.
 
 
+
+[teacher_github](https://github.com/edutak/TIL)
 
 
 
