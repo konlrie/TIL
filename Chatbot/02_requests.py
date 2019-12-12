@@ -9,6 +9,10 @@ import requests
 # print(result)
 # print(type(result))
 
-# 3. Response 객체를 통해 상대 코드 받아보기
+# 3. Response 객체를 통해 상태 코드 받아보기
 result = requests.get('https://naver.com').status_cod
 print(result)
+if result == 200:
+    print('접속 성공!')
+elif result == 404:
+    print('페이지가 없네요...')
